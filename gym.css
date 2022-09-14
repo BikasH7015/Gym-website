@@ -1,0 +1,131 @@
+body{
+    background-image: url(backg.jpg);
+    background-size: 1600px;
+}
+.left{
+    color: white;
+    
+
+    display: inline block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+.left img{
+   width: 68px;
+}
+.left button{
+    position: absolute;
+    top:10px;
+    left: 100px;
+    border:2px solid white;
+    background-color: #000;
+    color: white;
+    border-radius: 12px;
+    width: 200px;
+    padding: 6px;
+}
+
+.right{ 
+    color: white;
+    display: inline-block;
+    border-radius: 3px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 10% ;
+    display: inline-block;
+
+}
+.right button{
+    border: 1px solid white;
+    background-color: #000;
+    color: white;
+    width: 140px;
+    padding: 9px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.mid{
+    position:absolute;
+    top: 20px;
+    color: white;
+    border: 1px solid white;
+    display: block;
+border-radius: 9px;
+    width: 50%;
+    margin: 20px auto;
+    
+    
+
+}
+.mid {
+    display: inline-block;
+    margin: auto;
+    margin-left: 29%;
+    
+    
+}
+
+.mid li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.mid li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 48px;
+
+}
+.btn{
+    color: white;
+    border: 1px solid white;
+    width: 150px;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: black;
+    cursor: pointer;
+ 
+    
+}
+.container{
+position: absolute;
+    top: 180px;
+    left: 50px;
+    padding: 50px 40px;
+    border:1px solid black;
+    border-radius: 12px;
+    width: 300;
+    
+    line-height: 70px;
+    
+}
+.container input{
+font-family: cursive;
+    font-size: large;
+    padding: 3px;
+    text-align:center;
+    width: 500px;
+    background: #000;
+    color: white;
+    height: 30px;
+
+}
+.container button{
+    background: #000;
+    color: white;
+    border: 1px solid white;
+    width: 100px;
+    padding: 7px;
+    border-radius: 9px;
+    cursor: pointer;
+
+
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
